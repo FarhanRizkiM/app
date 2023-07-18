@@ -19,6 +19,7 @@ function userTable(jsonParse) {
         row = rowtabel.replace("#nama#", element.nama).
         replace("#npm#", element.npm).
         replace("#smt#", semester).
+        replace("#semester#", element.semester)
         replace("#kelas#", element.kelas).
         replace("#prodi_kampus#", element.prodi_kampus).
         replace("#SVG#", svgicon);
