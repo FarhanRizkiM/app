@@ -22,6 +22,7 @@ export let rowtabel = `<tr>
   #kelas#</td>
 </tr>`
 
-export let smt = `<div class="text-sm leading-5 text-gray-900">#smt#</div>`
-
 export let svg = `<div class="flex items-center justify-center w-10 h-10 text-base font-medium text-yellow-600 bg-#WARNA#-200 rounded-md">PS</div>`
+
+
+export let smt = `<div class="text-sm leading-5 font-medium text-gray-900">#semester#</div>`
