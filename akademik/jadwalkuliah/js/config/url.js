@@ -1,0 +1,1 @@
+export let URLHelpdesk = "https://jadwal-0fc5e0bbd0c5.herokuapp.com/mhs"
