@@ -7,7 +7,7 @@ get(URLPresensi, tabelContent);
 
 
 function tabelContent(result){
-    userTable(result);
+    userTable(result);  
 }
 
 function userTable(jsonParse){
@@ -16,8 +16,8 @@ function userTable(jsonParse){
     let svgicon = svg.replace("#WARNA#", getRandomColorName());
     let smtcol = smt.replace("#col#", getRandomColorName());
     console.log(smtcol);
-    row = rowtabel.replace("#Nama#", element.nama).
-        replace("#Npm#", element.npm).
+    row = rowtabel.replace("#nama#", element.nama).
+        replace("#npm#", element.npm).
         replace("#smt#", smtcol).
         replace("#semester#", element.semester).
         replace("#kelas#", element.kelas).
